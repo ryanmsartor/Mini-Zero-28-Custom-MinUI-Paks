@@ -1,0 +1,61 @@
+[INFO] [Config]: Looking for config in: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/retroarch.cfg".
+[INFO] RetroArch 1.20.0 (Git b797f2d8cc)
+[INFO] === Build =======================================
+[INFO] Capabilities: ASIMD 
+[INFO] Version: 1.20.0
+[INFO] Git: b797f2d8cc
+[INFO] Built: Jan 16 2025
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "udev".
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] [Core]: Version of libretro API: 1, Compiled against API: 1
+[INFO] [Core]: Geometry: 320x240, Aspect: 1.333, FPS: 60.00, Sample rate: 48000.00 Hz.
+[INFO] [Video]: Set video size to: 720x960.
+[INFO] [SDL_GL] SDL 2.26.1 gfx context driver initialized.
+[INFO] [GL]: Found GL context: "gl_sdl".
+[INFO] [GL]: Detecting screen resolution: 480x640.
+[INFO] [GL]: Vendor: Imagination Technologies, Renderer: PowerVR Rogue GE8300.
+[INFO] [GL]: Version: OpenGL ES 3.2 build 1.19@6345021.
+[INFO] [GL]: Using resolution 720x960.
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] Shader log: WARNING: 0:15: Calls to any function that may require a gradient calculation inside a conditional block may return undefined results
+1 compilation warnings.
+
+
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [Video]: Graphics driver did not initialize an input driver. Attempting to pick a suitable driver.
+[WARN] [udev]: Couldn't open any keyboard, mouse or touchpad. Are permissions set correctly for /dev/input/event* and /run/udev/?
+[WARN] [udev]: Full-screen pointer won't be available.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Video]: Found display server: "null".
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [ALSA] Using ALSA version 1.1.4.1
+[INFO] [ALSA]: Using FLOAT_LE sample format for PLAYBACK device "Playback"
+[INFO] [ALSA]: Period: 3 periods per buffer (1024 frames, 8192 bytes)
+[INFO] [ALSA]: Buffer size: 3072 frames (24576 bytes)
+[INFO] [ALSA]: Can pause: no.
+[INFO] [ALSA]: Initialized PLAYBACK device "Playback"
+[INFO] [Audio]: Started synchronous audio driver.
+[INFO] [ALSA] Using ALSA version 1.1.4.1
+[INFO] [Microphone]: Initialized microphone driver.
+[INFO] [Display]: Found display driver: "gl".
+[INFO] [Core Info]: Wrote to cache file: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/cores/core_info.cache".
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: No such file or directory
+[ERROR] [MIDI]: snd_seq_open failed with error -2.
+[ERROR] [MIDI]: Initialization failed.
+[INFO] [Playlist]: Loading history file: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/content_history.lpl".
+[INFO] [Playlist]: Loading history file: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/content_music_history.lpl".
+[INFO] [Playlist]: Loading history file: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/content_image_history.lpl".
+[INFO] [Playlist]: Loading favorites file: "/mnt/SDCARD/Tools/zero28/RetroArch.pak/.config/retroarch/content_favorites.lpl".
