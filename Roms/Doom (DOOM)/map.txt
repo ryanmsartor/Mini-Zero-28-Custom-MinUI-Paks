@@ -1,0 +1,3 @@
+doom1.wad	Doom 1 (Shareware)
+freedoom1.wad	FreeDoom 1
+freedoom2.wad	FreeDoom 2
