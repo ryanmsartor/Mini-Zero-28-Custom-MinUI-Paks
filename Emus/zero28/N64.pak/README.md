@@ -1,4 +1,4 @@
-# N64.pak — credits and source
+# N64.pak for the MagicX Mini Zero 28
 
 This is **[josegonzalez/minui-n64-pak](https://github.com/josegonzalez/minui-n64-pak)** by
 Jose Diaz-Gonzalez (MIT, see `LICENSE`): a MinUI pak wrapping the standalone
@@ -11,11 +11,23 @@ The `zero28` build here adds MagicX Mini Zero 28 support, proposed upstream in
 the core rotates its output onto the portrait-native 480x640 panel, a pad mapping for the
 Zero 28's button numbering, and bundled `libsamplerate`.
 
+## Where the code lives
+
+The Zero 28 changes are in
+**[josegonzalez/minui-n64-pak#126](https://github.com/josegonzalez/minui-n64-pak/pull/126)**.
+Whatever happens to that pull request (merged, declined or closed), its page on GitHub keeps
+the full diff, commits and discussion, even if the fork it came from is later deleted. So
+that's the place to find, rebuild or continue this code. If it was merged, the Zero 28
+support is in josegonzalez/minui-n64-pak itself and its releases include a `zero28` build.
+
 ## Exact source
 
 Built with `make clone patch dist-zero28` from
 [arniebradfo/minui-n64-pak@3059b5f](https://github.com/arniebradfo/minui-n64-pak/tree/3059b5f3e654e02185f99508904cd9c97a71df02)
-(branch `magicx-zero28`), which pins and patches:
+(branch `magicx-zero28`), which pins and patches the components below. The same commit
+stays reachable through the pull request as
+[#126/commits/3059b5f](https://github.com/josegonzalez/minui-n64-pak/pull/126/commits/3059b5f3e654e02185f99508904cd9c97a71df02)
+if the fork is ever removed.
 
 | Component | Version | License |
 |---|---|---|
