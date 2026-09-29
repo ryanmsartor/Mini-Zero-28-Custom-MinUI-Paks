@@ -23,10 +23,10 @@ support is in josegonzalez/minui-n64-pak itself and its releases include a `zero
 ## Exact source
 
 Built with `make clone patch dist-zero28` from
-[arniebradfo/minui-n64-pak@0f580da](https://github.com/arniebradfo/minui-n64-pak/tree/0f580da0fd001c1a61f1cbb40c3f490efd605a0f)
+[arniebradfo/minui-n64-pak@d5c1226](https://github.com/arniebradfo/minui-n64-pak/tree/d5c1226e9dcc43dd56428ab3c5e0d22cb63154cd)
 (branch `magicx-zero28`), which pins and patches the components below. The same commit
 stays reachable through the pull request as
-[#126/commits/0f580da](https://github.com/josegonzalez/minui-n64-pak/pull/126/commits/0f580da0fd001c1a61f1cbb40c3f490efd605a0f)
+[#126/commits/d5c1226](https://github.com/josegonzalez/minui-n64-pak/pull/126/commits/d5c1226e9dcc43dd56428ab3c5e0d22cb63154cd)
 if the fork is ever removed.
 
 | Component | Version | License |
